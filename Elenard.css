@@ -1,0 +1,211 @@
+body {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+.container {
+    margin: auto;
+}
+
+.primary-text {
+    color: #dc3545; 
+}
+
+.primary-background {
+    background: #dc3545;
+}
+
+#main-header {
+  border-bottom: 1px solid #dc3545;
+}
+
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li {
+    list-style: none;
+    flex-direction: column;
+    display: inline;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li.current a, #navbar a:hover {
+    color: #dc3545;
+    border-bottom: 3px solid #dc3545;
+    padding-bottom: 3px;
+}
+
+#showcase {
+    background:url('Images/abj.jpg') no-repeat center center;
+    border-bottom: 1px solid #dc3545;
+    margin-bottom: 30px;
+  
+}
+
+#showcase .row {
+    height: 600px;
+}
+
+#showcase h1{
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#showcase p{ 
+    color: #ccc;
+    margin: 0;
+}
+
+#showcase .showcase-content{
+  background: #333;
+  color: #fff;
+  border-radius: 90px;
+  padding: 40px;
+  opacity: 0.9;
+}
+
+#features h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+ 
+#features .fa{
+    font-size: 60px;
+    color: #dc3545;
+}
+
+#info {
+    background-color: #333;
+    color: #fff;
+}
+
+#info h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+ 
+}
+
+#info ul {
+   list-style: none;
+   padding: 0; 
+}
+
+#info li {
+    line-height: 2em;
+    font-size: 20px;
+}
+
+#coy{
+   background: #888;
+   color: #fff;
+   padding: 10px 0; 
+}
+
+#coy h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#coy ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#coy input[type="text"] {
+    padding: 7px;
+}
+
+#coy button {
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border: o;
+}
+
+#main-footer {
+    background: #dc3545;
+    color: #fff;
+}
+
+#page {
+    margin-bottom: 40px;
+}
+
+.services ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.services ul li:nth-child(odd){
+    background: #333;
+    color: #fff;
+}
+
+.services ul li:nth-child(even){
+    background: #dc3545;
+    color: #fff;
+}
+
+.contacts form {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contacts form input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contacts form textarea{
+    width: 50%;
+    height: 100px;
+}
+
+.contacts form button{
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color: #fff;
+}
+
+#contacts form label{
+    text-transform: uppercase;
+}
+
+@media(max-width:800px){
+    #showcase h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:500px){
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+}
